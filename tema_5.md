@@ -47,6 +47,7 @@ print('3', set_1.difference(set_2))
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/1.2.png?raw=true)
 
 ### Выводы
 
@@ -73,6 +74,8 @@ add_elms(my_frozen)
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/2.2.png?raw=true)
+
 ### Выводы
 
 Для того, чтобы не дублировать код, была написана функция `add_elems()`, добавляющая элементы в массив через цикл и выводящая результат в консоль. Были созданы множество `my_set` и и frozenset множество `my_frozen`. Так как frozenset не позволяет добавлять и удалять элементы после инициализации, после вызова функции `add_elems()` с переданным  в нее `my_frozen` программа завершает свою работу с ошибкой
@@ -93,6 +96,7 @@ print(replace(my_list))
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/3.2.png?raw=true)
 
 ### Выводы 
 
@@ -109,6 +113,7 @@ print(my_list[2:6])
 ```
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/4.2.png?raw=true)
 
 ### Выводы 
 
@@ -133,6 +138,8 @@ print(useless([int(random.random() * 100) for i in range(5) ]))
 ```
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/5.2.png?raw=true)
+
 ### Выводы 
 
 Написанная функция принимает список, находит наибольшее его значения с помощью функции `max()` и делит его на на длину этого списка, которая находится с помощью функции `len()`. 
@@ -152,6 +159,7 @@ print('иван - ', ivan)
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/6.2.png?raw=true)
 
 ### Выводы 
 
@@ -176,6 +184,7 @@ print(f'новый список - {a}')
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/7.2.png?raw=true)
 
 ### Выводы 
 
@@ -205,6 +214,7 @@ if __name__ == '__main__':
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/8.2.png?raw=true)
 
 ### Выводы 
 
@@ -236,6 +246,7 @@ if __name__ == '__main__':
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/9.2.png?raw=true)
 
 ### Выводы 
  
@@ -253,6 +264,7 @@ print(my_list[::-1])
 ```
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/lab/10.2.png?raw=true)
 
 ### Выводы 
 
@@ -294,7 +306,7 @@ print(f'больше всего посещений у работника {check_
 
 ### Результат
 
-*скрин*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/sam/1.2.png?raw=true)
 
 ### Выводы
 
@@ -321,7 +333,7 @@ print(f'все результаты с десятого - {results[9:]}') #ин�
 
 ### Результат
 
-*скрин_здесь*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/sam/2.2.png?raw=true)
 
 ### Выводы 
 
@@ -354,7 +366,7 @@ print(f'с максимальными - {triangle_max_sides}')
 
 ### Результат
 
-*скрин_здесь*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/sam/3.2.png?raw=true)
 
 ### Выводы 
 
@@ -390,7 +402,7 @@ print(replace_assessments(list3))
 
 ### Результат
 
-*скрин_сюда*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/sam/4.2.png?raw=true)
 
 ## Выводы
 
@@ -426,7 +438,7 @@ print(make_set(list_3))
 
 ### Результат
 
-*сюда_скрины*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_5/pics/sam/5.2.png?raw=true)
 
 ### Выводы 
 
