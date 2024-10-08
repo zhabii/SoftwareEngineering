@@ -1,9 +1,12 @@
-from math import sqrt, sin, cos
-def main():
-    value = int(input("enter your value -> "))
-    print(f'корень : {sqrt(value)}\n'
-          f'синус : {sin(value)}\n'
-          f'косинус : {cos(value)}')
+from random import randint
+
+
+def list_maker():
+    return [randint(1, 100)] * randint(3, 10)
+
 
 if __name__ == '__main__':
-    main()
+    result = []
+    for i in range(randint(1, 5)):
+        result.append(list_maker())
+    print(result)

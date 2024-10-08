@@ -1,9 +1,20 @@
-def my_abs(*args):
-    full_sum = 0
-    for num in args:
-        full_sum += num
-    return full_sum / len(args)
+list1 = [2, 3, 4, 5, 3, 4, 5, 2, 2, 5, 3, 4, 3, 5, 4]
+list2 = [4, 2, 3, 5, 3, 5, 4, 2, 2, 5, 4, 3, 5, 3, 4]
+list3 = [5, 4, 3, 3, 4, 3, 3, 5, 5, 3, 3, 3, 3, 4, 4]
 
-if __name__ == '__main__':
-    result = my_abs(123, 53, 6, 23, 5346, 7, 3, 1, -8, -99,)
-    print(f'среднее арифметическое - {round(result, 2)}')
+def replace_assessments(a_list):
+    new_list = list()
+    for i in range(len(a_list)):
+        if a_list[i] == 2:
+            continue
+        if a_list[i] == 3:
+            new_list.append(4)
+            continue
+        new_list.append(a_list[i])
+
+    return new_list
+
+
+print(replace_assessments(list1))
+print(replace_assessments(list2))
+print(replace_assessments(list3))

@@ -1,9 +1,7 @@
-def lab3(num_1, num_2):
-    return num_1 * num_2
+def replace(usr_list):
+    usr_list[0], usr_list[-1] = usr_list[-1], usr_list[0]
+    return usr_list
 
+my_list = [1, 2, 3]
+print(replace(my_list))
 
-if __name__ == '__main__':
-    result = 0
-    for i in range(3):
-        result += lab3(i+1, 4)
-    print(result)

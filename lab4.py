@@ -1,10 +1,3 @@
-def main(*args):
-    one = args[0]
-    two = sum(args)
-    three = len(args)
-    print(f'one = {one}, two = {two}, three = {three}!')
-    return one + two / three
-
-
-print(main(1, 2, 3, 4, 5))
+my_list = [1, 2, 3, 4, 5, 6, 7, 8, 9, 10]
+print(my_list[2:6])
 
