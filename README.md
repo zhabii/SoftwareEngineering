@@ -45,6 +45,7 @@ print(key, access)
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/lab/1.png?raw=true)
 
 ### Выводы
 
@@ -72,6 +73,8 @@ pprint(my_dict)
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/lab/2.png?raw=true)
+
 ### Выводы
 
 В программе был использовали встроенный модуль pprint, который выводит большие объемы информации более понятно для восприятия человеческим глазом
@@ -90,6 +93,7 @@ print(list(result))
 
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/lab/3.png?raw=true)
 
 ### Выводы 
 
@@ -112,6 +116,7 @@ show_personal_info(*bob)
 ```
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/lab/4.png?raw=true)
 
 ### Выводы 
 
@@ -136,6 +141,8 @@ if __name__ == '__main__':
 ```
 ### Результат
 
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/lab/5.png?raw=true)
+
 ### Выводы 
 
 Проходимся по каждому элементу кортежа с помощью цикла. Если элемент строка - возвращаем исходный кортеж, иначе - сортированный
@@ -156,11 +163,11 @@ print('кортеж -', data_tuple)
 
 ### Результат
 
-Функция tuple() может принимать список в качестве аргумента для создания картежа.
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/sam/1.png?raw=true)
 
 ### Выводы
+Функция tuple() может принимать список в качестве аргумента для создания картежа.
 
-Для получения информации о количестве чеков была использована функция `len()`.  Чтобы исключить повторяющиеся значения из списка и найти количество разных людей, посетивших ресторан, список был преобразован в множество, а затем к получившемуся множеству была использована функция `len()`. Для нахождения информации о максимальных посещениях был использован цикл, который сравнивал максимальный счетчик посещений с счетчиком каждого элемента.
 
 ---
 ## Самостоятельная работа №2
@@ -183,7 +190,7 @@ print(remove_from_tuple((2, 4, 6, 6, 4 ,2), 9))
 
 ### Результат
 
-*скрин_здесь*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/sam/2.png?raw=true)
 
 ### Выводы 
 
@@ -214,7 +221,7 @@ pprint(result)
 
 ### Результат
 
-
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/sam/3.png?raw=true)
 
 ### Выводы 
 
@@ -249,7 +256,7 @@ print(my_func(tuple_3, 8))
 
 ### Результат
 
-*скрин_сюда*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/sam/4.png?raw=true)
 
 ## Выводы
 
@@ -296,7 +303,7 @@ display_inventory(inventory)
 
 ### Результат
 
-*сюда_скрины*
+![](https://github.com/zhabii/SoftwareEngineering/blob/tema_6/img/sam/5.png?raw=true)
 
 ### Выводы 
 
